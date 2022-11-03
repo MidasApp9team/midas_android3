@@ -54,8 +54,6 @@ fun MainComposeHelper(
 ){
     var inHour = 0
     var inMin = 0
-    var outHour = 0
-    var outMin = 0
     var timeSize by remember { mutableStateOf(0) }
     var totalWork by remember { mutableStateOf(0) }
     var inTime by remember { mutableStateOf(Share.getString(context, IN,"")) }
