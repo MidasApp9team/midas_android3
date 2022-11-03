@@ -121,7 +121,7 @@ fun MainComposeHelper(
                 Body2(text = stringResource(id = R.string.total_work_time))
 
                 Body2(
-                    text = totalWork.toString()+"분",
+                    text = (totalWork/60).toString()+"시간 "+(totalWork%60).toString()+"분",
                     modifier = Modifier
                         .fillMaxWidth()
                         .wrapContentWidth(Alignment.End)
