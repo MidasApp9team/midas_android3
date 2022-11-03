@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MidasAndroid2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_help">MainHelp</string>
+
+    <string name="commute_now">출퇴근 현황</string>
+    <string name="today">Today</string>
+    <string name="in">출근</string>
+    <string name="in_time">출근 시간</string>
+    <string name="out">퇴근</string>
+    <string name="out_time">퇴근 시간</string>
+    <string name="home_working">재택근무</string>
+    <string name="total_work_time">총 근무 시간</string>
+    <string name="week_work_time">주 근무 시간</string>
+    <string name="week_work_time_left">주 근무 시간 달성까지</string>
+
+    <string-array name="custom_weekdays">
+        <item>일</item>
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+        <item>토</item>
+    </string-array>
+
+    <string-array name="custom_months">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+</resources>
